@@ -29,5 +29,10 @@ public class TDD_kata1 {
 	public void testEmptyStringEqualsZero() {
 		assertEquals(0, new StringCalculator().add(""));
 	}
+	
+	@Test
+	public void testSingleNumberEqualsNumber() {
+		assertEquals(1, new StringCalculator().add("1"));
+	}
 
 }
