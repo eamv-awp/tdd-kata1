@@ -35,4 +35,9 @@ public class TDD_kata1 {
 		assertEquals(1, new StringCalculator().add("1"));
 	}
 
+	@Test
+	public void testOneAndTwoEqualsThree() {
+		assertEquals(3, new StringCalculator().add("1,2"));
+	}
+
 }
