@@ -26,8 +26,8 @@ public class TDD_kata1 {
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testEmptyStringEqualsZero() {
+		assertEquals(0, new StringCalculator().add(""));
 	}
 
 }
